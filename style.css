@@ -1,0 +1,112 @@
+.box{
+    position: static;
+    position:absolute;
+    
+    top: 20%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    
+    
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(38, 92, 66);
+    position: relative;
+    left: 25%;
+}
+
+
+#mytext{
+    
+    border: 2px solid #5a9e8a;
+    border-radius: 8px;
+    outline: none;
+    padding: 10px;
+    position: relative;
+    left: 15%;
+    
+}
+#mytext:focus{
+    
+    border-color:#407264;
+    box-shadow: 0 0 8px 0;
+    transition: .3s;
+}
+
+
+
+
+#button{
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+    border: 2px solid #5a9e8a;
+    background: #5a9e8a;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 15%;
+
+}
+#button:hover {
+    background: #437969;
+    border-color: #437969;
+}
+
+
+#o {
+    position: relative;
+    border-style: solid;
+    border-color:  rgb(51, 91, 136);
+    border-radius: 8px;
+    
+    overflow: auto;
+    overflow-x: hidden;
+    
+    padding: 3%;
+    width: 400px;
+    height: 200px;
+    left: 150px;
+   
+
+    
+
+    
+}
+
+
+
+  
+    
+
+#copy {
+
+    left: 600px;
+    top: 55px;
+    position: relative;
+
+    border-style: none;
+    padding: 2%;
+    background-color: rgb(51, 91, 136);
+    color: white;
+    border-radius: 8px;
+}
+
+#copy:hover {
+    background-color: rgb(44, 75, 111) ;
+    cursor: pointer;
+}
+
+.output {
+    position:absolute;
+    
+    top: 230%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+}
+
